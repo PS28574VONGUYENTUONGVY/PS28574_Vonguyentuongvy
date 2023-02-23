@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ps28717_NguyenQuocHOc</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container .header img{
+            width: 200px;
+            position: relative;
+        }
+        .container .header{
+            background-color: rgb(46, 46, 103);
+        }
+        .container .header .menu-right {
+            top: 0;
+            position: absolute;
+            right: 50px;
+            padding-top :35px;
+        }
+        .container .header .menu-left a{
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            
+        }
+        .container .header .menu-left {
+            position: absolute;
+            top: 0;
+            left: 600px;
+            padding-top :30px;
+        }
+        a:hover{
+            background-color: orangered;
+        }
+        .container .header .menu-right a{
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        /* header */
+        .mid img{
+            width: 100%;
+            position: relative;
+            float: left;
+            opacity:0.7;
+        }
+        .mid .slogan{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: -50% -50%;
+        }
+        span{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0 0 5px orangered;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="..\img\test2.png" alt="">
+            <div class="menu-left">
+                <nav>
+                    <a href="#">trang chủ</a>
+                    <a href="#">tin tức</a>
+                    <a href="#">sản phẩm</a>
+                    <a href="#">liên hệ </a>
+                </nav>
+            </div>
+            <div class="menu-right">
+                <nav>
+                    <a href="#">đăng ký</a>
+                    <a href="#">đăng nhập</a>
+                </nav>
+            </div>
+        </div>
+        <div class="mid">
+            <img src="..\img\TEST2.1.jpg" alt="">
+            <div class="slogan">
+                <span >FPT Polytechnic</span>
+                <p>Thực học - Thực nghiệp</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
